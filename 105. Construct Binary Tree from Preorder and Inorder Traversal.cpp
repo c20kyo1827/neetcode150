@@ -89,6 +89,7 @@
 //     }
 
 //     int pre = 0, in = 0;
+//     // stop : represent the root node of the sub-tree
 //     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder, int stop) {
 //         // touch the end of the preorder
 //         if(pre >= preorder.size()) return nullptr;
@@ -109,8 +110,37 @@
 //         return cur;
 //     }
 // };
+/*
+    1. cur->val = 3
+        cur->left : stop=3
+        cur->right : stop=MAX_INT
+*/
+
 
 // non-recursive
+/*
+          3 
+        /  \
+       9    7
+     /  \
+    20  15
+
+    preorder = [3,  9, 20, 15, 7]
+    inorder  = [20, 9, 15, 3,  7]
+
+    1. root = 3 => how about the 9, left or right? => use the inorder to check
+        if the 9 is on the right, the 9 should be on the right of 3 in the inorder => Thus, the 9 is on the left of 3
+        if the 20 is on the right, the 20 should be on the right of 9 in the inorder => Thus, the 20 is on the left of 9
+    2. how about 15?
+        a. the right tree of 3 , the inorder : 20,9,3,15
+        b. the right tree of 9 , the inorder : 20,9,15
+        c. the right tree of 20, the inorder : 20,15
+        
+        if we check the reverse of traversed root [3,9,20] => [20,9,3]
+            a. 20,9,3,15 <-> 20,9,3 => 15 is the right of 3
+            b. 20,9,15   <-> 20,9   => 15 is the right of 9
+            c. 20,15     <-> 20     => 20 is the right of 15
+*/
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -123,6 +153,7 @@ public:
 
         while(pre < preorder.size()){
             if(cur->val == inorder[in]){
+                // Check when the traversed root == inorder[in]
                 while(!stackNode.empty() && stackNode.top()->val == inorder[in]){
                     cur = stackNode.top();
                     stackNode.pop();
