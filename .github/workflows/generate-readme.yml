@@ -1,0 +1,35 @@
+name: Generate README
+
+on:
+  push:
+    paths:
+      - '*.md'  # 當任何 Markdown 檔案變動時觸發
+  workflow_dispatch: # 允許手動觸發
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      # Set up Python environment
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      # Run the script to generate README
+      - name: Generate README
+        run: python generate_readme.py
+
+      # Commit and push changes back to the repo
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update README with sorted problems list" || echo "No changes to commit"
+          git push
