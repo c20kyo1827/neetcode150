@@ -1,11 +1,11 @@
 import os
 
 def generate_readme(output_file):
-    # 過濾出數字開頭的檔案名稱，並解析數字部分
-    files = [f for f in os.listdir('.') if f.split('.')[0].isdigit() and f.endswith('.md') and f != "README.md"]
+    # 過濾出數字開頭的檔案
+    files = [f for f in os.listdir('.') if f.split('.')[0].isdigit() and f != "README.md"]
     problems = []
     for file in files:
-        number = int(file.split('.')[0])  # 提取檔名中的數字
+        number = int(file.split('.')[0])  # 提取檔案名稱中的數字
         problems.append((number, file))
 
     # 按數字排序
@@ -16,7 +16,7 @@ def generate_readme(output_file):
         readme.write("# LeetCode Solutions\n\n")
         readme.write("## Problems List\n\n")
         for number, file in problems:
-            title = file.split('.', 1)[1].replace('-', ' ').replace('.md', '').title()
+            title = file.split('.', 1)[1].replace('-', ' ').replace('.cpp', '').strip()
             readme.write(f"{number}. [{title}]({file})\n")
 
 # 用於 GitHub Actions 的執行點
