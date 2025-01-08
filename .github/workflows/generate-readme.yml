@@ -3,7 +3,7 @@ name: Generate README
 on:
   push:
     paths:
-      - '*.md'  # 當任何 Markdown 檔案變動時觸發
+      - '*.cpp'  # 當 .cpp 檔案變動時觸發
   workflow_dispatch: # 允許手動觸發
 
 jobs:
