@@ -27,9 +27,11 @@ jobs:
 
       # Commit and push changes back to the repo
       - name: Commit and Push Changes
+        env:
+          PAT: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add README.md
           git commit -m "Update README with sorted problems list" || echo "No changes to commit"
-          git push
+          git push https://$PAT@github.com/c20kyo1827/neetcode150.git HEAD:main
