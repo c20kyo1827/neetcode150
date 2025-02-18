@@ -9,7 +9,11 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
+/*
+    [1,2,2,3,null,null,3,4,null,null,4]
+    1. consider every node
+    2. If the left/right is nullptr, the height is 0
+*/
 class Solution {
     bool isBalance;
 public:
