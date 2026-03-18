@@ -1,37 +1,33 @@
-name: Generate README
+name: Update README
 
 on:
   push:
-    paths:
-      - '*.cpp'  # 當 .cpp 檔案變動時觸發
-  workflow_dispatch: # 允許手動觸發
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
-      - name: Checkout Repo
+      - name: Checkout
         uses: actions/checkout@v3
 
-      # Set up Python environment
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
-      # Run the script to generate README
-      - name: Generate README
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run script
         run: python generate_readme.py
 
-      # Commit and push changes back to the repo
-      - name: Commit and Push Changes
-        env:
-          PAT: ${{ secrets.PAT_TOKEN }}
+      - name: Commit changes
         run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README with sorted problems list" || echo "No changes to commit"
-          git push https://$PAT@github.com/c20kyo1827/neetcode150.git HEAD:main
+          git commit -m "Auto update README" || echo "No changes"
+          git push
