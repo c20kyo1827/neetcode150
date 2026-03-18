@@ -1,24 +1,79 @@
 import os
+import re
+import requests
 
-def generate_readme(output_file):
-    # 過濾出數字開頭的檔案
-    files = [f for f in os.listdir('.') if f.split('.')[0].isdigit() and f != "README.md"]
-    problems = []
-    for file in files:
-        number = int(file.split('.')[0])  # 提取檔案名稱中的數字
-        problems.append((number, file))
+LEETCODE_API = "https://leetcode.com/graphql"
 
-    # 按數字排序
-    problems.sort()
+def get_question_data(title):
+    query = """
+    query getQuestion($titleSlug: String!) {
+      question(titleSlug: $titleSlug) {
+        questionId
+        title
+        titleSlug
+        difficulty
+      }
+    }
+    """
 
-    # 生成 README 的內容
-    with open(output_file, 'w') as readme:
-        readme.write("# LeetCode Solutions\n\n")
-        readme.write("## Problems List\n\n")
-        for number, file in problems:
-            title = file.split('.', 1)[1].replace('-', ' ').replace('.cpp', '').strip()
-            readme.write(f"{number}. [{title}]({file})\n")
+    slug = title.lower().replace(" ", "-")
 
-# 用於 GitHub Actions 的執行點
-if __name__ == "__main__":
-    generate_readme('README.md')
+    variables = {"titleSlug": slug}
+
+    response = requests.post(
+        LEETCODE_API,
+        json={"query": query, "variables": variables},
+    )
+
+    data = response.json()
+
+    if "data" in data and data["data"]["question"]:
+        return data["data"]["question"]
+
+    return None
+
+
+def smart_slug(title):
+    # fallback: basic slug
+    return title.lower().replace(" ", "-")
+
+
+files = [f for f in os.listdir('.') if f.endswith('.cpp')]
+
+problems = []
+
+for f in files:
+    match = re.match(r"(\d+)\.\s+(.+)\.cpp", f)
+    if match:
+        num = match.group(1)
+        title = match.group(2).strip()
+
+        slug = smart_slug(title)
+        data = get_question_data(slug)
+
+        if data:
+            slug = data["titleSlug"]
+            difficulty = data["difficulty"]
+        else:
+            difficulty = "Unknown"
+
+        url = f"https://leetcode.com/problems/{slug}/"
+
+        problems.append((int(num), num, title, url, difficulty, f))
+
+# 排序
+problems.sort()
+
+# 產生 README
+lines = ["# LeetCode Solutions\n"]
+
+lines.append("| # | Title | Difficulty | Code |")
+lines.append("|---|------|------------|------|")
+
+for _, num, title, url, difficulty, filename in problems:
+    lines.append(
+        f"| {num} | [{title}]({url}) | {difficulty} | [Link](./{filename}) |"
+    )
+
+with open("README.md", "w") as f:
+    f.write("\n".join(lines))
