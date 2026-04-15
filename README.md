@@ -62,6 +62,7 @@
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | Medium | [Link](./846. Hand of Straights.cpp) |
 | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [Link](./853. Car Fleet.cpp) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Link](./973. K Closest Points to Origin.cpp) |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [Link](./994. Rotting Oranges.cpp) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [Link](./1046. Last Stone Weight.cpp) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Link](./1143. Longest Common Subsequence.cpp) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [Link](./1448. Count Good Nodes in Binary Tree.cpp) |
