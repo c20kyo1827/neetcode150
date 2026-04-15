@@ -41,6 +41,7 @@
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-(prefix-tree)/) | Unknown | [Link](./208. Implement Trie (Prefix Tree).cpp) |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | [Link](./210. Course Schedule II.cpp) |
 | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | [Link](./211. Design Add and Search Words Data Structure.cpp) |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | [Link](./212. Word Search II.cpp) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Link](./215. Kth Largest Element in an Array.cpp) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](./217. Contains Duplicate.cpp) |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](./230. Kth Smallest Element in a BST.cpp) |
