@@ -44,6 +44,7 @@
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | [Link](./212. Word Search II.cpp) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Link](./215. Kth Largest Element in an Array.cpp) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](./217. Contains Duplicate.cpp) |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](./226. Invert Binary Tree.cpp) |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](./230. Kth Smallest Element in a BST.cpp) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Link](./234. Palindrome Linked List.cpp) |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Link](./238. Product of Array Except Self.cpp) |
