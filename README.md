@@ -19,6 +19,9 @@
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Link](./62. Unique Paths.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [Link](./66. Plus One.cpp) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Link](./84. Largest Rectangle in Histogram.cpp) |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Link](./98. Validate Binary Search Tree.cpp) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Link](./100. Same Tree.cpp) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Link](./102. Binary Tree Level Order Traversal.cpp) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](./104. Maximum Depth of Binary Tree.cpp) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Link](./105. Construct Binary Tree from Preorder and Inorder Traversal.cpp) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Link](./110. Balanced Binary Tree.cpp) |
@@ -48,6 +51,7 @@
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](./226. Invert Binary Tree.cpp) |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](./230. Kth Smallest Element in a BST.cpp) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Link](./234. Palindrome Linked List.cpp) |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [Link](./235. Lowest Common Ancestor of a Binary Search Tree.cpp) |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Link](./238. Product of Array Except Self.cpp) |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Link](./239. Sliding Window Maximum.cpp) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Link](./242. Valid Anagram.cpp) |
@@ -60,6 +64,7 @@
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Link](./355. Design Twitter.cpp) |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | [Link](./371. Sum of Two Integers.cpp) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Link](./543. Diameter of Binary Tree.cpp) |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | [Link](./572. Subtree of Another Tree.cpp) |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [Link](./621. Task Scheduler.cpp) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [Link](./678. Valid Parenthesis String.cpp) |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [Link](./695. Max Area of Island.cpp) |
