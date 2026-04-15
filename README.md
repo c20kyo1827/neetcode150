@@ -19,6 +19,7 @@
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Link](./62. Unique Paths.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [Link](./66. Plus One.cpp) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Link](./84. Largest Rectangle in Histogram.cpp) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](./104. Maximum Depth of Binary Tree.cpp) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Link](./105. Construct Binary Tree from Preorder and Inorder Traversal.cpp) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Link](./110. Balanced Binary Tree.cpp) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [Link](./124. Binary Tree Maximum Path Sum.cpp) |
