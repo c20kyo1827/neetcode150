@@ -67,6 +67,7 @@
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | [Link](./572. Subtree of Another Tree.cpp) |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [Link](./621. Task Scheduler.cpp) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [Link](./678. Valid Parenthesis String.cpp) |
+| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | [Link](./684. Redundant Connection.cpp) |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [Link](./695. Max Area of Island.cpp) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [Link](./703. Kth Largest Element in a Stream.cpp) |
 | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Medium | [Link](./721. Accounts Merge.cpp) |
