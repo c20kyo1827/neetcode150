@@ -80,5 +80,6 @@
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [Link](./1046. Last Stone Weight.cpp) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Link](./1143. Longest Common Subsequence.cpp) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [Link](./1448. Count Good Nodes in Binary Tree.cpp) |
+| 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [Link](./1584. Min Cost to Connect All Points.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | Hard | [Link](./1851. Minimum Interval to Include Each Query.cpp) |
 | 1899 | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | Medium | [Link](./1899. Merge Triplets to Form Target Triplet.cpp) |
