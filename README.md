@@ -74,6 +74,7 @@
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Link](./739. Daily Temperatures.cpp) |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [Link](./763. Partition Labels.cpp) |
 | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | Hard | [Link](./778. Swim in Rising Water.cpp) |
+| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [Link](./787. Cheapest Flights Within K Stops.cpp) |
 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | Medium | [Link](./846. Hand of Straights.cpp) |
 | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [Link](./853. Car Fleet.cpp) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Link](./973. K Closest Points to Origin.cpp) |
