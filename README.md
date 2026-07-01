@@ -80,9 +80,11 @@
 | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [Link](./853. Car Fleet.cpp) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Link](./973. K Closest Points to Origin.cpp) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [Link](./994. Rotting Oranges.cpp) |
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [Link](./997. Find the Town Judge.cpp) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [Link](./1046. Last Stone Weight.cpp) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Link](./1143. Longest Common Subsequence.cpp) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [Link](./1448. Count Good Nodes in Binary Tree.cpp) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [Link](./1584. Min Cost to Connect All Points.cpp) |
 | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | Hard | [Link](./1851. Minimum Interval to Include Each Query.cpp) |
 | 1899 | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | Medium | [Link](./1899. Merge Triplets to Form Target Triplet.cpp) |
+| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [Link](./1971. Find if Path Exists in Graph.cpp) |
