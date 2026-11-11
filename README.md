@@ -60,6 +60,7 @@
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](./268. Missing Number.cpp) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [Link](./287. Find the Duplicate Number.cpp) |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [Link](./297. Serialize and Deserialize Binary Tree.cpp) |
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | [Link](./312. Burst Balloons.cpp) |
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | [Link](./329. Longest Increasing Path in a Matrix.cpp) |
 | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | Hard | [Link](./332. Reconstruct Itinerary.cpp) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [Link](./338. Counting Bits.cpp) |
