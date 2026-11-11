@@ -77,6 +77,7 @@
 | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Medium | [Link](./721. Accounts Merge.cpp) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Link](./739. Daily Temperatures.cpp) |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | [Link](./743. Network Delay Time.cpp) |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [Link](./746. Min Cost Climbing Stairs.cpp) |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [Link](./763. Partition Labels.cpp) |
 | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | Hard | [Link](./778. Swim in Rising Water.cpp) |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [Link](./787. Cheapest Flights Within K Stops.cpp) |
